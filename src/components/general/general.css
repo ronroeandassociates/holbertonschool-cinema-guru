@@ -1,0 +1,106 @@
+/* ###### general ###### */
+
+*:focus {
+    outline: none;
+  }
+
+  * {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /* ###### inputs ###### */
+
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    margin: 3.5rem 0;
+  }
+
+  .input-above {
+    align-self: flex-start;
+  }
+
+  .input-icon {
+    margin-right: 0.5rem;
+    color:rgb(184, 183, 183);
+  }
+
+  .input-text,
+  .input-number,
+  .input-select {
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px solid red;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 0;
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+
+  .input-password {
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px solid red;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 0;
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+
+  /* ###### button ###### */
+
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    float: right;
+  }
+
+  .button-container > button {
+    width: 160px;
+    height: 35px;
+    border-radius: 3px;
+    border: red;
+    color: white;
+    font-size: 1.2rem;
+    background-color: red;
+  }
+
+  .button-container > button:hover {
+    background-color: #f75151;
+    cursor: pointer;
+  }
+
+  .button-icon {
+    margin-right: 1.0rem;
+  }
+
+  /* ###### search bar ###### */
+
+  .search-bar-container {
+    color: rgb(138, 138, 138);
+  }
+
+  .search-bar-container:hover {
+    color: white;
+  }
+
+  .search-bar-container .search-bar {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(71, 71, 71);
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .search-bar-container .search-bar-icon {
+    position: absolute;
+    padding: 10px;
+    min-width: 50px;
+  }
