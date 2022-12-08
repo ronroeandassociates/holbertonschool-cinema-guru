@@ -10,6 +10,7 @@
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
     "axios": "^0.26.1",
+    "eslint-plugin-react-hooks": "^5.0.0-next-a0619e26c-20221207",
     "lodash": "4.17.21",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",

@@ -23,7 +23,7 @@
 
   .input-icon {
     margin-right: 0.5rem;
-    color:rgb(184, 183, 183);
+    color:#FFFFFF;
   }
 
   .input-text,
@@ -31,7 +31,7 @@
   .input-select {
     width: 100%;
     height: 35px;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #BB000E;
     border-left: none;
     border-right: none;
     border-top: none;
@@ -43,7 +43,7 @@
   .input-password {
     width: 100%;
     height: 35px;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #BB000E;
     border-left: none;
     border-right: none;
     border-top: none;
@@ -64,10 +64,10 @@
     width: 160px;
     height: 35px;
     border-radius: 3px;
-    border: red;
-    color: white;
+    border: #BB000E;
+    color: #FFFFFF;
     font-size: 1.2rem;
-    background-color: red;
+    background-color: #BB000E;
   }
 
   .button-container > button:hover {
@@ -82,18 +82,18 @@
   /* ###### search bar ###### */
 
   .search-bar-container {
-    color: rgb(138, 138, 138);
+    color: #1C1C1C;
   }
 
   .search-bar-container:hover {
-    color: white;
+    color: #FFFFFF;
   }
 
   .search-bar-container .search-bar {
     width: 50%;
     padding: 10px;
     border: none;
-    background-color: rgb(71, 71, 71);
+    background-color: #1C1C1C;
     border-radius: 50px;
     text-align: center;
     cursor: pointer;
